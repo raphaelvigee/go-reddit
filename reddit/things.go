@@ -524,7 +524,7 @@ type Post struct {
 	FullID  string     `json:"name,omitempty"`
 	Created *Timestamp `json:"created_utc,omitempty"`
 	Edited  *Timestamp `json:"edited,omitempty"`
-	Hint    string     `json:"post_hint,omitempty"`
+	IsVideo bool       `json:"is_video,omitempty"`
 
 	Permalink string `json:"permalink,omitempty"`
 	URL       string `json:"url,omitempty"`
